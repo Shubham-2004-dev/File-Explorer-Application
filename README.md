@@ -1,8 +1,9 @@
 # Linux Terminal Based File Explorer
 
-## NAME : SHUBHAM SATPATI
-## SECTION: 2241009
-## REGISTRATION NUMBER: 2241019356
+# 
+   * ```NAME : SHUBHAM SATPATI ```
+   * ```SECTION: 2241009 ```
+   * ```REGISTRATION NUMBER: 2241019356```
 
 ### Prerequisites
 1. G++ compiler
