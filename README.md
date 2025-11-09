@@ -1,5 +1,9 @@
 # Linux Terminal Based File Explorer
 
+## NAME : SHUBHAM SATPATI
+## SECTION: 2241009
+## REGISTRATION NUMBER: 2241019356
+
 ### Prerequisites
 1. G++ compiler
    * ```sudo apt-get install g++```
@@ -111,15 +115,16 @@ search foo.txt
 Search for the given filename under the current directory recursively
 
 
-**2.6 Snapshotting the filesystem and dump into a file** 
+**2.6 File Permission** 
 ```
-snapshot <folder> <dumpfile>​
-```
+std::filesystem::permissions
 
 ```
-Eg:
-snapshot ~/foobar/ dumpimg
-```
-Given a base directory this command recursively crawl the directory and store the output in dumpfile.
+Example 1: Use the numeric mode function (Unix style)
+           set_file_permissions("C:\\temp\\log.txt", 0644); 
+
+Example 2: Use the simplified named functions
+           make_readonly("C:\\temp\\sensitive_file.txt"); 
+           make_fullaccess("C:\\temp\\my_script.sh");
 
 **2.7 On pressing ‘ESC’ key the application should go to Normal Mode**
